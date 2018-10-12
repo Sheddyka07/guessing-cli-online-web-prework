@@ -2,7 +2,7 @@
 
 
 def exit_game
-  puts "Goodbye"
+  puts "Goodbye!"
 end 
 
 
