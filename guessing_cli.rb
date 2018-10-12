@@ -18,7 +18,7 @@ def run_guessing_game
     elsif guess.to_i != correct 
       puts "The computer guessed #{correct}."
     else 
-      puts "invalid"
+      puts "invalid input"
     
   end
   exit_game
