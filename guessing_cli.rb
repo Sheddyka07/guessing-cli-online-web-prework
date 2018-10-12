@@ -15,7 +15,7 @@ def run_guessing_game
     when guess != correct 
       puts "The computer guessed #{correct}."
     break
-end
+  end
   exit_game
 end
 
