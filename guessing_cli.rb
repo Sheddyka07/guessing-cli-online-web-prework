@@ -12,7 +12,7 @@ def run_guessing_game
   correct = (rand(1..6))
     if guess.to_i = correct
       puts "You guessed the correct number!"
-    when guess.to_i != correct 
+    elsif guess.to_i != correct 
       puts "The computer guessed #{correct}."
     break
   end
